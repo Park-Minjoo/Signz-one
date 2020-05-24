@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 281184775}
   - component: {fileID: 281184774}
   - component: {fileID: 281184776}
+  - component: {fileID: 281184777}
   m_Layer: 9
   m_Name: Virgo
   m_TagString: Untagged
@@ -331,6 +332,21 @@ CapsuleCollider:
   m_Height: 7.2000012
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &281184777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281184773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20561a71b3ad0404f83afe985d5c73be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOn: 0
+  fadesPow: 0.04
+  fadeOffMin: 0.4
 --- !u!1 &321525748
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +533,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 46.791, y: 57.977, z: 36.118}
 --- !u!1 &449706123
 GameObject:
@@ -621,7 +637,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -817,7 +832,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -839,6 +853,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524153887}
   m_CullTransparentMesh: 0
+--- !u!1 &548166188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 858663633}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 548166189}
+  m_Layer: 0
+  m_Name: Dome (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &548166189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 858663633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548166188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &639270225
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,6 +894,7 @@ GameObject:
   - component: {fileID: 639270227}
   - component: {fileID: 639270226}
   - component: {fileID: 639270228}
+  - component: {fileID: 639270229}
   m_Layer: 9
   m_Name: Sagittarius
   m_TagString: Untagged
@@ -935,6 +980,21 @@ CapsuleCollider:
   m_Height: 7.2600007
   m_Direction: 1
   m_Center: {x: 0, y: -0.00000011920929, z: 0}
+--- !u!114 &639270229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639270225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20561a71b3ad0404f83afe985d5c73be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOn: 0
+  fadesPow: 0.04
+  fadeOffMin: 0.4
 --- !u!1 &733833769
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,7 +1047,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1247,7 +1306,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1321,7 +1379,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1381,7 +1438,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1567,7 +1623,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -72.536, y: -94.379005, z: 118.48301}
 --- !u!1 &1904593390
 GameObject:
@@ -1667,7 +1723,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -36.415, y: 0, z: 0}
 --- !u!1 &1959213033
 GameObject:
